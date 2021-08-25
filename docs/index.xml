@@ -6,7 +6,18 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Aug 2021 13:38:11 +0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Aug 2021 16:40:11 +0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo和github搭建静态博客</title>
+      <link>http://example.org/posts/hugo-github/</link>
+      <pubDate>Wed, 25 Aug 2021 16:40:11 +0800</pubDate>
+      
+      <guid>http://example.org/posts/hugo-github/</guid>
+      <description>用hugo和github搭建静态博客 前言 想搭建一个简单的博客，主要用来渲染md静态文档，上网搜了一下，发现很多网友用hugo、github pages来搭建，于是自己搜了一些相关博客，尝试搭建成功，就记录一下搭建步骤。
+按照hugo 用的是mac操作系统，直接在命令行中输入命令安装：
+brew install hugo </description>
+    </item>
+    
     <item>
       <title>Test Pub</title>
       <link>http://example.org/posts/test-pub/</link>
