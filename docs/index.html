@@ -134,8 +134,12 @@
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
           用hugo和github搭建静态博客 前言 想搭建一个简单的博客，主要用来渲染md静态文档，上网搜了一下，发现很多网友用hugo、github pages来搭建，于是自己搜了一些相关博客，尝试搭建成功，就记录一下搭建步骤。
-按照hugo 用的是mac操作系统，直接在命令行中输入命令安装：
-brew install hugo 
+安装hugo 用的是mac操作系统，直接在命令行中输入命令安装：
+brew install hugo 安装成功后，习惯运行hugo -v 命令，如果有输出，说明安装成功
+生成站点 选择一个路径，比如 /path/to/myblog, 使用hugo快速生成站点:
+hugo new site /path/to/myblog 这样就在路径path/to/myblog的目录生成了一下文件：
+├── archetypes │ └── default.md ├── config.toml ├── content ├── data ├── layouts ├── static └── themes 简单介绍一下常用目录功能
+   子目录名称 功能     archetypes 新文章默认模板   config.toml Hugo配置文档   content 存放所有Markdown格式的文章   layouts 存放自定义的view，可为空   static 存放图像、CNAME、css、js等资源，发布后该目录下所有资源将处于网页根目录   themes 存放下载的主题    然后我们在content目录下生成hello world文章：
         </div>
           <a href="/posts/hugo-github/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
