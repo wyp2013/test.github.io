@@ -23,12 +23,13 @@ hugo new site /path/to/myblog 这样就在路径path/to/myblog的目录生成了
     </item>
     
     <item>
-      <title>Test Pub</title>
-      <link>http://example.org/posts/test-pub/</link>
+      <title>hugo theme </title>
+      <link>http://example.org/posts/hugo-theme-link/</link>
       <pubDate>Tue, 24 Aug 2021 13:38:11 +0800</pubDate>
       
-      <guid>http://example.org/posts/test-pub/</guid>
-      <description>test </description>
+      <guid>http://example.org/posts/hugo-theme-link/</guid>
+      <description>even https://github.com/olOwOlo/hugo-theme-even
+ </description>
     </item>
     
     <item>
