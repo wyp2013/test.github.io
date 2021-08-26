@@ -54,7 +54,7 @@ hugo new site /path/to/myblog 这样就在路径path/to/myblog的目录生成了
 ├── archetypes │ └── default.md ├── config.toml ├── content ├── data ├── layouts ├── static └── themes 简单介绍一下常用目录功能
    子目录名称 功能     archetypes 新文章默认模板   config.toml Hugo配置文档   content 存放所有Markdown格式的文章   layouts 存放自定义的view，可为空   static 存放图像、CNAME、css、js等资源，发布后该目录下所有资源将处于网页根目录   themes 存放下载的主题    然后我们在content目录下生成hello world文章："><meta itemprop="datePublished" content="2021-08-25T16:40:11+08:00" />
 <meta itemprop="dateModified" content="2021-08-25T16:40:11+08:00" />
-<meta itemprop="wordCount" content="147">
+<meta itemprop="wordCount" content="145">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="hugo和github搭建静态博客"/>
 <meta name="twitter:description" content="用hugo和github搭建静态博客 前言 想搭建一个简单的博客，主要用来渲染md静态文档，上网搜了一下，发现很多网友用hugo、github pages来搭建，于是自己搜了一些相关博客，尝试搭建成功，就记录一下搭建步骤。
@@ -239,7 +239,8 @@ todo 插入图片</p>
 <p>本文介绍受用/docs发布到master，还有使用/public发布的方法，请自行搜索。</p>
 <p>具体步骤如下</p>
 <p>步骤1：
-我们需要在github创建一个repository，命名为：username.github.io，username替换成你的github用户名</p>
+我们需要在github创建一个repository，命名为：username.github.io，username替换成你的github用户名
+<img src="https://github.com/wyp2013/wyp2013.github.io/blob/master/static/create_repository.png" alt="创建仓库"></p>
 <p>初始化本地文档根目录的git：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git init
 git add .
@@ -259,7 +260,6 @@ git commit -m <span style="color:#e6db74">&#34;提交docs静态网易文件&#34;
 git push
 </code></pre></div><p>步骤4：
 在网页中输入:https://username.github.io就能访问你所有的文章了</p>
-<p>todo 添加图片</p>
 <ul class="pa0">
   
 </ul>

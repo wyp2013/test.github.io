@@ -86,6 +86,7 @@ todo 插入图片
 
 步骤1：
 我们需要在github创建一个repository，命名为：username.github.io，username替换成你的github用户名
+![创建仓库](https://github.com/wyp2013/wyp2013.github.io/blob/master/static/create_repository.png)
 
 初始化本地文档根目录的git：
 ```bash
@@ -118,7 +119,8 @@ git push
 步骤4：
 在网页中输入:https://username.github.io就能访问你所有的文章了
 
-todo 添加图片
+
+
 
 
 
