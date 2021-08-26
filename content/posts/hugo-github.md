@@ -78,7 +78,9 @@ echo 'theme = "ananke"' >> config.toml
 hugo server
 ```
 在浏览器中输入网址http://localhost:1313/就可以在浏览器中查看网页效果了：
-todo 插入图片
+
+![myblog](https://raw.githubusercontent.com/wyp2013/wyp2013.github.io/master/static/myblog.png)
+
 ### 发布并托管到github
 本文介绍受用/docs发布到master，还有使用/public发布的方法，请自行搜索。
 
@@ -110,6 +112,9 @@ hugo
 
 步骤3：
 进入刚创建username.github.io的repository的settings标签菜单，在github pages选项的sources选择master branch /docs，点击保存,
+
+![set_pages](https://raw.githubusercontent.com/wyp2013/wyp2013.github.io/master/static/set_githubpages.png)
+
 然后提交 /docs目录下所有的文件
 ```bash
 git add docs
@@ -119,6 +124,8 @@ git push
 
 步骤4：
 在网页中输入:https://username.github.io就能访问你所有的文章了
+
+![show_blog](https://raw.githubusercontent.com/wyp2013/wyp2013.github.io/master/static/show_blog.png)
 
 
 
