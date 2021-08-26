@@ -29,7 +29,7 @@ hugo new site /path/to/myblog 这样就在路径path/to/myblog的目录生成了
       
       <guid>http://example.org/posts/hugo-theme-link/</guid>
       <description>even https://github.com/olOwOlo/hugo-theme-even
- </description>
+jane https://github.com/xianmin/hugo-theme-jane</description>
     </item>
     
     <item>

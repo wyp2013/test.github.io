@@ -6,5 +6,6 @@ draft: false
 
 ## even
 https://github.com/olOwOlo/hugo-theme-even
-## 
 
+## jane
+https://github.com/xianmin/hugo-theme-jane
